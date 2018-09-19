@@ -392,7 +392,7 @@ text.percentage2 {
 
 hr {
   background-color: #d2dae2;
-  min-width: 
+  min-width: 44.7%;
 }
 
 .main-btn {
@@ -1032,6 +1032,11 @@ aside {
 
   .inline-hr {
     width: 44%;
+  }
+
+  hr {
+    background-color: #d2dae2;
+    min-width: 43%;
   } 
 }
 
@@ -1114,6 +1119,11 @@ aside {
 
   .inline-hr {
     width: 42%;
+  }
+
+  hr {
+    background-color: #d2dae2;
+    min-width: 41.7%;
   }
 }
 
