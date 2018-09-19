@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Static Comp 3</title>
+  <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.css"> -->
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <section class="grid-container">
+    <nav class="column hidden">
+      <section class="user-section column">
+        <img src="images/professional-pic.png" class="user-pic" alt="A handsome gentleman" aria="User profile picture">
+        <button class="user-button"><span class="user-button-text">Cody Price<i class="fas fa-angle-down"></i></span></button>
+      </section>
+      <section class="nav-1 column">
+        <p class="nav-1-p">Main</p>
+        <button class="nav-button column home-btn"><i class="fas fa-home"></i>HOME</button>
+        <button class="nav-button column"><i class="fas fa-briefcase"></i>JOBS</button>
+        <button class="nav-button column"><i class="fas fa-file"></i>RESUMES</button>
+        <button class="nav-button column"><i class="fas fa-clipboard-list"></i>TASKS</button>
+        <button class="nav-button column"><i class="fas fa-calendar-alt"></i>CALENDAR</button>
+      </section>
+      <section class="nav-2 column">
+        <p class="nav-2-p">Admin</p>
+        <button class="nav-button column"><i class="fas fa-user-friends"></i>USERS</button>
+        <button class="nav-button column"><i class="fas fa-map-marker-alt"></i>LOCATIONS</button>
+        <button class="nav-button column"><i class="fas fa-sitemap"></i>WORKFLOWS</button>
+        <button class="nav-button column"><i class="fas fa-book"></i>JOB BOARDS</button>
+        <button class="nav-button column"><i class="fas fa-share-alt"></i>SOCIAL</button>
+      </section>
+      <section class="nav-3 column">
+        <p class="nav-3-p">Categories</p>
+        <button class="nav-button column"><i class="fas fa-check-square yellow"></i></i>ADMINISTRATIVE</button>
+        <button class="nav-button column"><i class="fas fa-square blue"></i>DESIGN</button>
+        <button class="nav-button column"><i class="fas fa-square red"></i>EXECUTIVE</button>
+        <button class="nav-button column"><i class="fas fa-square green"></i>HUMAN RESOURCES</button>
+      </section>
+    </nav>
+    <header>
+      <div id="menu-btn-div">
+        <i class="fas fa-caret-left"></i>
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="search-div"><i class="fas fa-search"></i><input type="text" name="search" placeholder="Search for a job, task or resume" class="search-bar"></div>
+      <div class="contacts-hdr tr-btn"><i class="fas fa-user"></i></div>
+      <div class="calendar-hdr tr-btn"><i class="fas fa-calendar-alt"></i></div>
+      <div class="grid-menu-hdr tr-btn"><i class="fas fa-th"></i></div>
+    </header>
+    <section class="subheader">
+      <div class="subheader-content-row">
+        <div class="job-title">
+          <h2>Customer Service Representative</h2>
+          <div>
+            <i class="fas fa-map-marker-alt"></i>San Francisco, CA<span class="dot"> . </span><a href="#" class="preview">Preview this post</a>
+          </div>
+        </div>
+        <div class="sub-btn-row-div">
+          <div class="open-btn-div">
+            <button class="subheader-btn-open open-btn"><i class="fas fa-circle"></i><span class="open-btn-txt">OPEN</span></button>
+          </div>
+          <div class="sub-btn-div">
+            <button class="subheader-btn"><i class="fas fa-bookmark"></i></button>
+          </div>
+          <div class="sub-btn-div">
+            <button class="subheader-btn"><i class="fas fa-pencil-alt"></i></button>
+          </div>
+          <div class="sub-btn-div">
+            <button class="subheader-btn"><i class="far fa-trash-alt"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bottomhdr">
+      <ul class="hidden3">
+        <button>SUMMARY</button>
+        <button>APPLICANTS</button>
+        <button>JOB BOARD</button>
+        <button>INTERVIEWS</button>
+        <button>ACTIVITY</button>
+        <button>BROADCASTS</button>
+        <button>NOTIFICATIONS</button>
+      </ul>
+      <div id="bottomhdr-menu">
+        <i class="fas fa-caret-left menu-btn-big-phone-caret"></i>
+        <i class="fas fa-bars"></i>
+      </div>
+    </section>
+    <section class="charts">
+      <div class="circles-div">
+        <div class="wrap-cir">
+          <div class="l-cir cir">
+            <svg viewBox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#444";
+                stroke-width="1";
+                stroke-dasharray="100, 100"/>
+              <path class="circle circle-l"
+                stroke-dasharray="59.3, 100"
+                d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                <text x="8.0" y="18.35" class="percentage">3,154</text>
+                <text x="8.0" y="23.35" class="percentage2">APPLICANTS</text>
+            </svg>
+          </div>
+          <div class="m-cir cir">
+            <svg viewBox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#444";
+                stroke-width="1";
+                stroke-dasharray="100, 100"/>
+              <path class="circle circle-m"
+                stroke-dasharray="29, 100"
+                d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                <text x="7.5" y="18.35" class="percentage">1,546</text>
+                <text x="8.0" y="23.35" class="percentage2">INTERVIEWS</text>
+            </svg>
+          </div>
+          <div class="r-cir cir">
+            <svg viewBox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#444";
+                stroke-width="1";
+                stroke-dasharray="100, 100"/>
+              <path class="circle circle-r"
+                stroke-dasharray="17.1, 100"
+                d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                <text x="11.0" y="18.35" class="percentage">912</text>
+                <text x="8.5" y="23.35" class="percentage2">FORWARDS</text>
+            </svg>
+          </div>
+        </div>
+        <div class="totals-btn-div"><button class="totals-btn chart-btn subheader-btn-open">TOTALS <span class="dot"> . </span>Out of 5,321 views</button></div>
+      </div>
+      <div class="bars-div">
+        <div class="bar-graph"><img src="images/static-bar.png" class="bar-graph"></div>
+        <div class="app-day-btn-div"><button class="applicants-btn chart-btn subheader-btn-open">APPLICANTS/DAY</button></div>
+      </div>
+    </section>
+    <div class="main-break">
+      <hr class="inline-hr hr-left"><button class="inline main-btn subheader-btn main-toggle">
+        <span class="main-caret">^</span></button><hr class="inline-hr hr-right">
+    </div>
+    <main>
+      <section class="job-desc">
+        <table>
+          <tr class="tab-h">
+            <th class="tab-l">JOB DESCRIPTION</th>
+            <th class="tab-r"><button class="edit-btn"><i class="fas fa-pencil-alt edit-pencil"></i>EDIT</button></th>
+          </tr>
+          <tr>
+            <td class="tab-l">POSITION TITLE</td>
+            <td class="tab-r">Customer Service Representative</td>
+          </tr>
+          <tr class="table-break"></tr>
+          <tr>
+            <td class="tab-l">LOCATION</td>
+            <td class="tab-r">San Francisco, CA</td>
+          </tr>
+          <tr class="table-break"></tr>
+          <tr>
+            <td class="tab-l">EMPLOYMENT TYPE</td>
+            <td class="tab-r">Full-time</td>
+          </tr>
+          <tr class="table-break"></tr>
+          <tr>
+            <td class="tab-l">EXPERIENCE</td>
+            <td class="tab-r">Mid-level</td>
+          </tr>
+          <tr class="table-break"></tr>
+          <tr>
+            <td class="tab-l">STATUS</td>
+            <td class="tab-r">Open</td>
+          </tr>
+          <tr class="table-break"></tr>
+          <tr class="row-2x">
+            <td class="tab-l">DESCRIPTION</td>
+            <td class="tab-r">The customer service representative is responsible for interacting with and providing quality assistance with all radical customers, responsible for keeping up to date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</td>
+          </tr>
+          <tr class="table-break"></tr>
+          <tr>
+            <td class="tab-l">HIRING LEAD</td>
+            <td class="tab-r hiring-row"><img src="images/clown-headshot-crop.png" class="hiring-lead-image">Tom Tizzy</td>
+          </tr>
+          <tr class="table-break"></tr>
+          <tr>
+            <td class="tab-l">APPROVED SALARY</td>
+            <td class="tab-r"><span class="salary">$58,000</span></td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <aside>
+      <section class="aside-section-container">
+        <button class="aside-btn facebook-btn"><span class="aside-btn-icon"><i class="fab fa-facebook-f"></i></span>Post to Facebook</button>
+        <button class="aside-btn twitter-btn"><span class="aside-btn-icon"><i class="fab fa-twitter"></i></span>Tweet this Job</button>
+        <button class="aside-btn linkedin-btn"><span class="aside-btn-icon"><i class="fab fa-linkedin"></i></span>Post to Linkedin</button>
+        <section class="aside-section link-section">
+          <p class="aside-title"><i class="fas fa-globe-americas"></i>Link to this job</p>
+          <p class="aside-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+          <article class="aside-form">
+            <div class="link-input aside-input bottoma"><p class="aside-value">http://loremipsum.com/dfkjiekenalskj/asdfjlkasdf/dlfkkl/dfjiefjkefjak/</p>
+            </div>
+            <button class="link-submit-btn aside-submit-btn">Copy</button>
+          </article>
+        </section>
+        <div class="div-break hidden2"></div>
+        <section class="aside-section widget-section">
+          <p class="aside-title"><i class="fas fa-window-maximize"></i>Use the button widget</p>
+          <p class="aside-p">This widget embeds the buttons for sharing the job for submitting a resumé on your website.</p>
+          <article class="aside-form">
+            <div class="widget-input aside-input bottomb"><p class="aside-value">&lt;script type="text/javascript"&gt;&lt;/script&gt;</p>
+            </div>
+            <button class="widget-submit-btn aside-submit-btn">Copy</button>
+          </article>
+        </section>
+        <div class="div-break hidden2"></div>
+        <section class="aside-section resumes-section">
+          <p  class="aside-title"><i class="fas fa-paper-plane"></i>Upload Resumés by Email</p>
+          <p class="aside-p">You can automatically upload multiple resumés to this job by emailing the address below.</p>
+          <div class="email-contact bottomc">
+            <a href="mailto:tomtizzy@gmail.com" class="mailto-link">tomtizzy@gmail.com</a>
+          </div>
+        </section>
+      </section>
+    </aside>
+  </section>
+</body>
+  <script src="script.js"></script>
+</html>
